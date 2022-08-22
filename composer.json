@@ -1,0 +1,35 @@
+{
+    "name": "pestphp/pest-playground-runtime",
+    "description": "The Lambda runtime for Pest Playground",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Downing",
+            "email": "lukeraymonddowning@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "symfony/process": "^6.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "laravel/pint": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PestPlayground\\Runtime\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
