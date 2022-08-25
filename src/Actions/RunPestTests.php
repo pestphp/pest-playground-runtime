@@ -56,8 +56,6 @@ final class RunPestTests implements RunsPestTests
             'LAMBDA_RUNTIME_DIR' => false,
             'LAMBDA_TASK_ROOT' => false,
             'LANG' => false,
-            'LD_LIBRARY_PATH' => false,
-            'PATH' => false,
             'SHLVL' => false,
             'SIDECAR_CHECKSUM' => false,
         ];
